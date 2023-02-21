@@ -4,11 +4,11 @@ function Header() {
 			<nav>
 				<ul>
 					<li className="logo">Kenny Fiesta</li>
-					<li>Home</li>
-					<li>About</li>
-					<li>Price List</li>
-					<li>Faqs</li>
-					<li>Contact</li>
+					<li>HOME</li>
+					<li>ABOUT</li>
+					<li>PRICE LIST</li>
+					<li>FAQS</li>
+					<li>CONTACT</li>
 				</ul>
 			</nav>
 		</div>

@@ -2,6 +2,7 @@ import './App.css';
 // import './Normalize.css';
 import Header from './Header';
 import DateAndTime from './DateAndTime';
+import Select from './Select';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <form action='#'>
         <DateAndTime />
+        <Select />
         
       </form>
     </div>
