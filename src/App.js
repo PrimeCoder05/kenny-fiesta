@@ -4,6 +4,7 @@ import Header from './Header';
 import DateAndTime from './DateAndTime';
 import Select from './Select';
 import PersonalInfo from './PersonalInfo';
+import Details from './Details';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <DateAndTime />
         <Select />
         <PersonalInfo />
+        <Details />
+        <input type="submit" value="Submit" />
       </form>
     </div>
   );

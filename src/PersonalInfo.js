@@ -11,7 +11,7 @@ function PersonalInfo() {
 			<input type="email" name="email-address" id="email" placeholder="example@example.com" required /> <br/><br/>
 
 			<label htmlFor="social-media">SOCIAL MEDIA USERNAME</label> <span>*</span><br/>
-			<input type="text" name="social-media" id="social-media" placeholder="@example on Instagram" required />
+			<input type="text" name="social-media" id="social-media" placeholder="@example on Instagram" required /> <br/><br/>
 		</>
 	);
 }

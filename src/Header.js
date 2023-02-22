@@ -11,6 +11,8 @@ function Header() {
 					<li>CONTACT</li>
 				</ul>
 			</nav>
+
+			<h1>Contact</h1>
 		</div>
 	);
 }
