@@ -7,6 +7,7 @@ import PersonalInfo from './components/PersonalInfo';
 import Details from './components/Details';
 import React, { useState } from 'react';
 import Selected from './components/Selected';
+import Submit from './components/Submit';
 
 function App() {
 
@@ -21,9 +22,7 @@ function App() {
         <PersonalInfo />
         <Details />
         <Selected option={selected} />
-        <label htmlFor="details">ADDITIONAL DETAILS</label><br/>
-			  <textarea name="additional-details" id="details" placeholder="(optional) Please tell me more details about your event."></textarea> <br/><br/>
-        <input type="submit" value="Submit" />
+        <Submit />
       </form>
     </div>
   );
