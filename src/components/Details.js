@@ -1,7 +1,7 @@
 function Details() {
 	return (
 		<>
-			<label htmlFor='communication-method'>PREFERRED METHOD OF COMMUNICATION</label> <span>*</span><br/>
+			<label htmlFor='communication-method'>PREFERRED METHOD OF COMMUNICATION</label> <span className="required">*</span><br/>
         	<select name='communication-method' id='communication-method' required>
 				<option>Please Select</option>
 				<option value="PHONE CALL">PHONE CALL</option>
@@ -12,9 +12,6 @@ function Details() {
 
 			<label htmlFor="referred-by">REFERRED BY</label><br/>
 			<input type="text" name="referred-by" id="referred-by" placeholder="(optional) Please enter the name of who told you to contact me." /> <br/><br/>
-
-			<label htmlFor="details">ADDITIONAL DETAILS</label><br/>
-			<textarea name="additional-details" id="details" placeholder="(optional) Please tell me more details about your event."></textarea> <br/><br/>
 		</>
 	);
 }
