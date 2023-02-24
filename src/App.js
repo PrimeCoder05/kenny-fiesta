@@ -14,7 +14,7 @@ function App() {
   const [selected, setSelected] = useState("EVENT");
 
   return (
-    <div>
+    <div className='wrapper'>
       <Header />
       <form action='#'>
         <DateAndTime />

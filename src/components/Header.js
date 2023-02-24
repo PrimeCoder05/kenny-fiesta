@@ -1,6 +1,6 @@
 function Header() {
 	return (
-		<div>
+		<>
 			<nav>
 				<ul>
 					<li className="logo">Kenny Fiesta</li>
@@ -13,7 +13,7 @@ function Header() {
 			</nav>
 
 			<h1>Contact</h1>
-		</div>
+		</>
 	);
 }
 
