@@ -48,7 +48,7 @@ select {
 
 textarea {
 	width: 300px;
-	height: 40px;
+	height: 180px;
 	border: solid #f0e9e9 2px;
 	border-radius: 4px;
 }
@@ -62,11 +62,16 @@ h1, .logo {
 	font-family: 'Bodoni Moda', serif;
 }
 
+.required {
+	color: red;
+}
+
+.submit {
+	color: white;
+	background-color: #000;
+}
+
 .wrapper {
 	max-width: 320px;
 	margin: 0 auto;
-}
-
-.required {
-	color: red;
 }
