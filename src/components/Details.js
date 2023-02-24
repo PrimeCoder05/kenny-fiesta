@@ -11,7 +11,7 @@ function Details() {
 			</select><br/><br/>
 
 			<label htmlFor="referred-by">REFERRED BY</label><br/>
-			<input type="text" name="referred-by" id="referred-by" placeholder="(optional) Please enter the name of who told you to contact me." /> <br/><br/>
+			<input type="text" name="referred-by" id="referred-by" placeholder="Enter the name of who told you to contact me." /> <br/><br/>
 		</>
 	);
 }
