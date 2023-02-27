@@ -2,6 +2,7 @@ function Header() {
 	return (
 		<>
 			<div className="header">
+				{/* <img src="./Hamburger_icon.svg.png" alt="Other options" /> */}
 				<nav>
 					<ul>
 						<li className="logo">Kenny Fiesta</li>
