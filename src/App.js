@@ -14,16 +14,18 @@ function App() {
   const [selected, setSelected] = useState("EVENT");
 
   return (
-    <div className='wrapper'>
+    <div>
       <Header />
-      <form action='#'>
-        <DateAndTime />
-        <Select setSelected={setSelected}/>
-        <PersonalInfo />
-        <Details />
-        <Selected option={selected} />
-        <Submit />
-      </form>
+      <div className='wrapper'>
+        <form action='#'>
+          <DateAndTime />
+          <Select setSelected={setSelected}/>
+          <PersonalInfo />
+          <Details />
+          <Selected option={selected} />
+          <Submit />
+        </form>
+      </div>
     </div>
   );
 }
