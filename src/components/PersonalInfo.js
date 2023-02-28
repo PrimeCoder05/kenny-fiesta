@@ -2,7 +2,7 @@ function PersonalInfo() {
 	return (
 		<>
 			<label htmlFor="name">NAME</label> <span className="required">*</span><br/>
-			<input type="text" name="first-name" id="name" placeholder="First Name" required /> <input type="text" name="last-name" id="name" placeholder="Last Name" required /> <br/><br/>
+			<input type="text" name="first-name" id="name" placeholder="First Name" className="double-inputs" required /> <input type="text" name="last-name" id="name" placeholder="Last Name" className="double-inputs" required /> <br/><br/>
 
 			<label htmlFor="phone-number">PHONE NUMBER</label> <span className="required">*</span><br/>
 			<input type="tel" name="phone-number" id="phone-number" placeholder="(123) 456-7890" required /> <br/><br/>

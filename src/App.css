@@ -37,25 +37,25 @@ li {
 
 form {
 	margin: 0 auto;
-	max-width: 300px;
+	max-width: 305px;
 }
 
 input {
-	width: 300px;
+	width: 304px;
 	height: 40px;
 	border: solid #f0e9e9 2px;
 	border-radius: 4px;
 }
 
 select {
-	width: 300px;
+	width: 304px;
 	height: 40px;
 	border: solid #f0e9e9 2px;
 	border-radius: 4px;
 }
 
 textarea {
-	width: 300px;
+	width: 304px;
 	height: 150px;
 	border: solid #f0e9e9 2px;
 	border-radius: 4px;
@@ -77,6 +77,10 @@ h1, .logo {
 	/* height: 50vh; */
 	background-size: cover;
 	color: white;
+}
+
+.double-inputs {
+	width: 150px;
 }
 
 .submit {
