@@ -13,7 +13,7 @@ function Select({setSelected}) {
 		<>
 			<label htmlFor='event-type'>TYPE OF EVENT</label> <span className="required">*</span><br/>
         	<select onChange={handleSelectOption} name='event-type' id='event-type' required>
-				<option value>Please Select</option>
+				<option>Please Select</option>
 				<option value="WEDDING">WEDDING</option>
 				<option value="BRIDAL SHOWER">BRIDAL SHOWER</option>
 				<option value="ENGAGEMENT PARTY">ENGAGEMENT PARTY</option>
