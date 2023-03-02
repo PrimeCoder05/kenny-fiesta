@@ -5,7 +5,7 @@ function Header() {
 				<nav>
 					<ul>
 						<li className="logo">Kenny Fiesta</li>
-						<li><img src="./icons8-menu-rounded-50.png" alt="Other options" width={40} /></li>
+						<li><img src="./icons8-menu-24.png" alt="Other options" width={30} /></li>
 						{/* <li>HOME</li>
 						<li>ABOUT</li>
 						<li>PRICE LIST</li>
