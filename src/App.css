@@ -184,3 +184,47 @@ h1, .logo {
 		margin: 0 auto;
 	}
 }
+
+/*Size for medium tablets*/
+@media (min-width: 740px) {
+	h1 {
+		font-size: 50px;
+		padding: 8px;
+		margin-top: 200px;
+	}
+
+	form {
+		margin: 0 auto;
+		max-width: 520px;
+	}
+	
+	input {
+		width: 518px;
+		height: 45px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+	
+	select {
+		width: 518px;
+		height: 45px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+	
+	textarea {
+		width: 518px;
+		height: 200px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+
+	.double-inputs {
+		width: 257px;
+	}
+
+	.wrapper {
+		max-width: 620px;
+		margin: 0 auto;
+	}
+}
