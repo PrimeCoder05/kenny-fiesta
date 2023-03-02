@@ -75,7 +75,6 @@ h1, .logo {
 }
 
 .header {
-	/* height: 50vh; */
 	background-size: cover;
 	color: white;
 }
@@ -96,4 +95,47 @@ h1, .logo {
 .wrapper {
 	max-width: 320px;
 	margin: 0 auto;
+}
+
+@media (min-width: 400px) {
+	h1 {
+		font-size: 50px;
+		padding: 8px;
+		margin-top: 160px;
+	}
+
+	form {
+		margin: 0 auto;
+		max-width: 342px;
+	}
+	
+	input {
+		width: 340px;
+		height: 45px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+	
+	select {
+		width: 340px;
+		height: 45px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+	
+	textarea {
+		width: 340px;
+		height: 160px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+
+	.double-inputs {
+		width: 168px;
+	}
+
+	.wrapper {
+		max-width: 364px;
+		margin: 0 auto;
+	}
 }
