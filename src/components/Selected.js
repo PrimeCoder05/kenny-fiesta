@@ -85,7 +85,7 @@ function Selected({option}) {
 		return (
 			<>
 				<label htmlFor="name">TYPE OF INDUSTRY</label> <span className="required">*</span><br/>
-				<input type="text" name="industry-type" id="name" required /> <br/><br/>
+				<input type="text" name="industry-type" id="name" placeholder="Example: Entertainment" required /> <br/><br/>
 			</>
 		);
 
@@ -93,7 +93,7 @@ function Selected({option}) {
 		return (
 			<>
 				<label htmlFor="name">TYPE OF STORE</label> <span className="required">*</span><br/>
-				<input type="text" name="store-type" id="name" required /> <br/><br/>
+				<input type="text" name="store-type" id="name" placeholder="Example: Shoe Store" required /> <br/><br/>
 			</>
 		);
 
