@@ -227,12 +227,12 @@ h1, .logo {
 	}
 }
 
-/* Size for large tablets and medium laptops */
+/* Size for large tablets and small laptops */
 @media (min-width: 900px) {
 	h1 {
 		font-size: 50px;
 		padding: 8px;
-		margin-top: 260px;
+		margin-top: 320px;
 	}
 
 	form {
@@ -268,5 +268,102 @@ h1, .logo {
 	.wrapper {
 		max-width: 760px;
 		margin: 0 auto;
+	}
+}
+
+/* Size for medium laptops */
+@media (min-width: 1220px) {
+	h1 {
+		font-size: 50px;
+		padding: 8px;
+		margin-top: 460px;
+	}
+
+	form {
+		margin: 0 auto;
+		max-width: 815px;
+	}
+	
+	input {
+		width: 814px;
+		height: 45px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+	
+	select {
+		width: 814px;
+		height: 45px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+	
+	textarea {
+		width: 814px;
+		height: 240px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+
+	.double-inputs {
+		width: 405px;
+	}
+
+	.wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
+
+/* Size for larger laptops */
+@media (min-width: 1800px) {
+	h1 {
+		font-size: 50px;
+		padding: 8px;
+		margin-top: 780px;
+	}
+
+	form {
+		margin: 0 auto;
+		max-width: 1000px;
+	}
+	
+	input {
+		width: 998px;
+		height: 50px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+	
+	select {
+		width: 998px;
+		height: 50px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+	
+	textarea {
+		width: 998px;
+		height: 260px;
+		border: solid #f0e9e9 2px;
+		border-radius: 4px;
+	}
+
+	.double-inputs {
+		width: 497px;
+	}
+
+	.wrapper {
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+}
+
+/* Size for 4k displays */
+@media (min-width: 2000px) {
+	h1 {
+		font-size: 50px;
+		padding: 8px;
+		margin-top: 1000px;
 	}
 }
