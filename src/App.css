@@ -99,7 +99,6 @@ h1, .logo {
 @media (min-width: 400px) {
 	h1 {
 		font-size: 50px;
-		padding: 8px;
 		margin-top: 160px;
 	}
 
@@ -135,7 +134,6 @@ h1, .logo {
 @media (min-width: 510px) {
 	h1 {
 		font-size: 50px;
-		padding: 8px;
 		margin-top: 160px;
 	}
 
@@ -171,7 +169,6 @@ h1, .logo {
 @media (min-width: 740px) {
 	h1 {
 		font-size: 50px;
-		padding: 8px;
 		margin-top: 200px;
 	}
 
@@ -207,7 +204,6 @@ h1, .logo {
 @media (min-width: 900px) {
 	h1 {
 		font-size: 50px;
-		padding: 8px;
 		margin-top: 320px;
 	}
 
@@ -243,7 +239,6 @@ h1, .logo {
 @media (min-width: 1220px) {
 	h1 {
 		font-size: 50px;
-		padding: 8px;
 		margin-top: 460px;
 	}
 
@@ -279,7 +274,6 @@ h1, .logo {
 @media (min-width: 1800px) {
 	h1 {
 		font-size: 50px;
-		padding: 8px;
 		margin-top: 780px;
 	}
 
@@ -315,7 +309,6 @@ h1, .logo {
 @media (min-width: 2000px) {
 	h1 {
 		font-size: 50px;
-		padding: 8px;
 		margin-top: 1000px;
 	}
 }
