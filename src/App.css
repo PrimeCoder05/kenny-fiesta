@@ -20,17 +20,35 @@ h1 {
 	margin-top: 100px;
 }
 
-ul {
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* ul {
 	margin-top: 0;
 	list-style-type: none;
 	padding-top: 5px;
 	padding-left: 0;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+} */
+
+/* li {
+	padding: 12px 8px 8px 8px;
+} */
+
+a {
+ text-decoration: none;
 }
 
-li {
-	padding: 12px 8px 8px 8px;
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
 }
 
 form {
@@ -61,7 +79,7 @@ textarea {
 
 .logo {
 	font-size: 1.8rem;
-	padding-top: 8px;
+	padding: 8px 5px 5px 5px;
 }
 
 h1, .logo {
@@ -88,6 +106,18 @@ h1, .logo {
 
 .submit:active {
 	background-color: #e821bc;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar li {
+	list-style: none;
+	padding: 0 20px;
+	position: relative;
 }
 
 .wrapper {
