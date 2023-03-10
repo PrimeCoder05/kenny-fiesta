@@ -23,7 +23,7 @@ h1 {
 nav {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 /* ul {
@@ -163,7 +163,6 @@ h1, .logo {
 /* Size for smaller tablets */
 @media (min-width: 510px) {
 	h1 {
-		font-size: 50px;
 		margin-top: 160px;
 	}
 
@@ -173,12 +172,10 @@ h1, .logo {
 	
 	input {
 		width: 390px;
-		height: 45px;
 	}
 	
 	select {
 		width: 390px;
-		height: 45px;
 	}
 	
 	textarea {
@@ -198,7 +195,6 @@ h1, .logo {
 /* Size for medium tablets */
 @media (min-width: 740px) {
 	h1 {
-		font-size: 50px;
 		margin-top: 200px;
 	}
 
@@ -208,12 +204,10 @@ h1, .logo {
 	
 	input {
 		width: 518px;
-		height: 45px;
 	}
 	
 	select {
 		width: 518px;
-		height: 45px;
 	}
 	
 	textarea {
@@ -233,7 +227,6 @@ h1, .logo {
 /* Size for large tablets and small laptops */
 @media (min-width: 900px) {
 	h1 {
-		font-size: 50px;
 		margin-top: 320px;
 	}
 
@@ -243,12 +236,10 @@ h1, .logo {
 	
 	input {
 		width: 668px;
-		height: 45px;
 	}
 	
 	select {
 		width: 668px;
-		height: 45px;
 	}
 	
 	textarea {
@@ -268,7 +259,6 @@ h1, .logo {
 /* Size for medium laptops */
 @media (min-width: 1220px) {
 	h1 {
-		font-size: 50px;
 		margin-top: 460px;
 	}
 
@@ -278,12 +268,10 @@ h1, .logo {
 	
 	input {
 		width: 814px;
-		height: 45px;
 	}
 	
 	select {
 		width: 814px;
-		height: 45px;
 	}
 	
 	textarea {
@@ -303,8 +291,11 @@ h1, .logo {
 /* Size for larger laptops */
 @media (min-width: 1800px) {
 	h1 {
-		font-size: 50px;
 		margin-top: 780px;
+	}
+
+	nav {
+		justify-content: space-evenly;
 	}
 
 	form {
@@ -338,7 +329,6 @@ h1, .logo {
 /* Size for 4k displays */
 @media (min-width: 2000px) {
 	h1 {
-		font-size: 50px;
 		margin-top: 1000px;
 	}
 }
