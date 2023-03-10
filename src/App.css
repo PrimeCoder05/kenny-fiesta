@@ -75,6 +75,7 @@ textarea {
 	height: 150px;
 	border: solid #f0e9e9 2px;
 	border-radius: 4px;
+	resize: vertical;
 }
 
 .logo {
