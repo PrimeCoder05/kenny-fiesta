@@ -107,6 +107,7 @@ h1, .logo {
 .submit {
 	color: white;
 	background-color: #000;
+	cursor: pointer;
 }
 
 .submit:active {
