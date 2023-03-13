@@ -338,3 +338,30 @@ h1, .logo {
 	}
 }
 
+/* Responsive navbar for mobile devices */
+@media screen and (max-width: 767px) {
+	.navbar {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		position: fixed;
+		top: 45px;
+		right: 0px;
+		width: 767px;
+		height: 55vh;
+		background: #f6f6f6;
+	}
+
+	.navbar li {
+		margin-bottom: 30px;
+	}
+
+	.navbar li a {
+		color: #000;
+	}
+
+	.mobile {
+		display: block;
+	}
+}

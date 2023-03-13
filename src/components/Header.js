@@ -1,29 +1,34 @@
-function Header() {
-	return (
-		<>
-			<div className="header" style={{ backgroundImage: `url(./Hero-Image.jpg)` }}>
-				<nav>
-					<a href="index.html" className="logo">Kenny Fiesta</a>
+import { Component } from "react";
 
-					<div>
-						<ul className="navbar">
-							{/* <li><img src="./icons8-menu-24.png" alt="Other options" width={30} /></li> */}
-							<li><a href="index.html">HOME</a></li>
-							<li><a href="index.html">ABOUT</a></li>
-							<li><a href="index.html">PRICE LIST</a></li>
-							<li><a href="index.html">FAQS</a></li>
-							<li><a href="index.html">CONTACT</a></li>
-						</ul>
-					</div>
+class Header extends Component {
+	state = { clicked: false };
+	render() {
+		return (
+			<>
+				<div className="header" style={{ backgroundImage: `url(./Hero-Image.jpg)` }}>
+					<nav>
+						<a href="index.html" className="logo">Kenny Fiesta</a>
 
-					<div className="mobile">
-						<img src="./icons8-menu-24.png" alt="Other Options" width={25} />
-					</div>
-				</nav>
-				<h1>Contact</h1>
-			</div>
-		</>
-	);
+						<div>
+							<ul className="navbar" id={this.state.clicked ? ".navbar active" : ".navbar"}>
+								{/* <li><img src="./icons8-menu-24.png" alt="Other options" width={30} /></li> */}
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="index.html">ABOUT</a></li>
+								<li><a href="index.html">PRICE LIST</a></li>
+								<li><a href="index.html">FAQS</a></li>
+								<li><a href="index.html" style={{ color: "#e821bc" }}>CONTACT</a></li>
+							</ul>
+						</div>
+
+						<div className="mobile">
+							<img src="./icons8-menu-24.png" alt="Other Options" width={25} />
+						</div>
+					</nav>
+					<h1>Contact</h1>
+				</div>
+			</>
+		);
+	}
 }
 
 export default Header;
