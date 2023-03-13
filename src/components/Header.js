@@ -2,6 +2,9 @@ import { Component } from "react";
 
 class Header extends Component {
 	state = { clicked: false };
+	handleClick = () => {
+		this.setState({ clicked: !this.state.clicked });
+	}
 	render() {
 		return (
 			<>
@@ -10,7 +13,7 @@ class Header extends Component {
 						<a href="index.html" className="logo">Kenny Fiesta</a>
 
 						<div>
-							<ul className="navbar" id={this.state.clicked ? ".navbar active" : ".navbar"}>
+							<ul id="navbar" className={this.state.clicked ? ".navbar active" : ".navbar"}>
 								{/* <li><img src="./icons8-menu-24.png" alt="Other options" width={30} /></li> */}
 								<li><a href="index.html">HOME</a></li>
 								<li><a href="index.html">ABOUT</a></li>
@@ -20,7 +23,7 @@ class Header extends Component {
 							</ul>
 						</div>
 
-						<div className="mobile">
+						<div className="mobile" onClick={this.handleClick}>
 							<img src="./icons8-menu-24.png" alt="Other Options" width={25} />
 						</div>
 					</nav>
