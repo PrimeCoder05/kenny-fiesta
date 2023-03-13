@@ -13,13 +13,12 @@ class Header extends Component {
 						<a href="index.html" className="logo">Kenny Fiesta</a>
 
 						<div>
-							<ul id="navbar" className={this.state.clicked ? ".navbar active" : ".navbar"}>
-								{/* <li><img src="./icons8-menu-24.png" alt="Other options" width={30} /></li> */}
+							<ul id="navbar" className={this.state.clicked ? "#navbar clicked" : "#navbar"}>
 								<li><a href="index.html">HOME</a></li>
 								<li><a href="index.html">ABOUT</a></li>
 								<li><a href="index.html">PRICE LIST</a></li>
 								<li><a href="index.html">FAQS</a></li>
-								<li><a href="index.html" style={{ color: "#e821bc" }}>CONTACT</a></li>
+								<li><a href="index.html" className="active">CONTACT</a></li>
 							</ul>
 						</div>
 

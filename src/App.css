@@ -78,6 +78,22 @@ textarea {
 	resize: vertical;
 }
 
+#navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#navbar li {
+	list-style: none;
+	padding: 0 20px;
+	position: relative;
+}
+
+#navbar li a.active {
+	color: #e821bc;
+}
+
 .logo {
 	font-size: 1.8rem;
 	padding: 8px 5px 5px 5px;
@@ -107,18 +123,6 @@ h1, .logo {
 
 .submit:active {
 	background-color: #e821bc;
-}
-
-#navbar {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#navbar li {
-	list-style: none;
-	padding: 0 20px;
-	position: relative;
 }
 
 .mobile {
@@ -351,14 +355,14 @@ h1, .logo {
 		justify-content: flex-start;
 		position: fixed;
 		top: 45px;
-		left: 0px;
+		left: -765px;
 		width: 765px;
 		height: 50vh;
 		background: #f6f6f6;
 	}
 
-	.navbar.active {
-		right: 0px;
+	#navbar.clicked {
+		left: 0px;
 	}
 
 	#navbar li {
