@@ -121,6 +121,10 @@ h1, .logo {
 	position: relative;
 }
 
+.mobile {
+	display: none;
+}
+
 .wrapper {
 	max-width: 320px;
 	margin: 0 auto;
@@ -333,3 +337,4 @@ h1, .logo {
 		margin-top: 1000px;
 	}
 }
+

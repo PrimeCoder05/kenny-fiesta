@@ -15,6 +15,10 @@ function Header() {
 							<li><a href="index.html">CONTACT</a></li>
 						</ul>
 					</div>
+
+					<div className="mobile">
+						<img src="./icons8-menu-24.png" alt="Other Options" width={25} />
+					</div>
 				</nav>
 				<h1>Contact</h1>
 			</div>
